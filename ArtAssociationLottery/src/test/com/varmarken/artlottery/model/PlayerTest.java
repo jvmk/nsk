@@ -29,12 +29,15 @@ public class PlayerTest {
 		assertTrue(manyTickets.getTickets().size() == many);
 		for(LotteryTicket ticket : zeroTickets.getTickets()) {
 			assertTrue(ticket.getTicketOwner().getId() == zeroTickets.getId());
+			assertTrue(ticket.getTicketOwner() == zeroTickets);
 		}
 		for(LotteryTicket ticket : oneTicket.getTickets()) {
 			assertTrue(ticket.getTicketOwner().getId() == oneTicket.getId());
+			assertTrue(ticket.getTicketOwner() == oneTicket);
 		}
 		for(LotteryTicket ticket : manyTickets.getTickets()) {
 			assertTrue(ticket.getTicketOwner().getId() == manyTickets.getId());
+			assertTrue(ticket.getTicketOwner() == manyTickets);
 		}
 	}	
 }
