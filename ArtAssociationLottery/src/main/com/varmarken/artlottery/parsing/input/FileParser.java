@@ -15,19 +15,19 @@ public class FileParser {
 	/**
 	 * Delimiter used to separate key-value pairs in input file.
 	 */
-	private static final String DELIMITER = ";";
+	public static final String DELIMITER = ";";
 
 	private static final int EXPECTED_PARTS = 2;
 
 	/**
 	 * Keyword in input file indicating that the player id follows.
 	 */
-	private static final String KEYWORD_ID = "id";
+	public static final String KEYWORD_ID = "id";
 
 	/**
 	 * Keyword in input file indicating that the player's ticket count follows.
 	 */
-	private static final String KEYWORD_TICKET = "tickets";
+	public static final String KEYWORD_TICKET = "tickets";
 
 	public static FileParseResult parseFile(File file) {
 		// Used to store a successful result.
