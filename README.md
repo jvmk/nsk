@@ -1,2 +1,2 @@
-nsk
+Næstved Sygehus Kunstforening
 ===
