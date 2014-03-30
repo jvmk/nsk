@@ -28,7 +28,7 @@ public class Launcher {
 	// private static final String DELIMITER_SPACE = " +";
 
 	private static final int EXPECTED_PARTS = 2;
-
+/*
 	public static void main(String[] args) throws IOException {
 		// TODO fix file path arg
 		args = new String[] { "/Users/varmarken/Desktop/testinput" };
@@ -70,4 +70,5 @@ public class Launcher {
 			}
 		}
 	}
+	*/
 }
